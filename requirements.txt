@@ -1,0 +1,11 @@
+metatrader5
+python-dotenv
+requests
+numpy
+pandas
+google-generativeai
+yfinance
+matplotlib
+colorama
+newsapi-python
+tradingeconomics

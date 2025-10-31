@@ -1,0 +1,101 @@
+{
+  "current": {
+    "symbol": "XAUUSDm",
+    "timeframe": "M5",
+    "candles": 50,
+    "account": "EXNESS",
+    "trade_mode": "RAPID_FIRE",
+    "auto_trade": true,
+    "lot": 0.03,
+    "slippage": 15,
+    "auto_close_profit": true,
+    "auto_close_target": 2.0,
+    "auto_close_mode": "PER_TRADE",
+    "auto_close_total_target": 8.0,
+    "close_all_on_target": false,
+    "auto_analyze": true,
+    "auto_analyze_interval": 1,
+    "bep": true,
+    "bep_min_profit": 0.3,
+    "bep_spread_multiplier": 1.1,
+    "stpp_trailing": true,
+    "step_lock_init": 0.2,
+    "step_step": 0.05,
+    "trade_always_on": true,
+    "entry_decimals": 2,
+    "signal_threshold": "HIGH",
+    "enable_scalping": true,
+    "enable_pattern_trading": true,
+    "enable_breakout_trading": true,
+    "ignore_economic_calendar": true,
+    "max_daily_trades": 5,
+    "min_signal_strength": 0.7,
+    "max_positions_per_symbol": 3,
+    "max_total_positions": 2,
+    "enable_multi_symbol": false,
+    "enable_multi_timeframe": false,
+    "symbols_to_trade": [
+      "XAUUSDm"
+    ],
+    "timeframes_to_check": [
+      "M5"
+    ],
+    "rapid_fire_mode": true,
+    "grid_trading": false,
+    "dynamic_lot_sizing": false,
+    "risk_percent_per_trade": 0,
+    "starting_balance": 108.55,
+    "stop_loss_protection": true,
+    "max_loss_per_trade": 3.0,
+    "global_max_loss": 12.0,
+    "daily_loss_limit": 20.0,
+    "max_drawdown_percent": 30.0,
+    "auto_close_on_loss": true,
+    "emergency_stop_active": false,
+    "sl_multiplier": 1.2,
+    "use_trailing_sl": true,
+    "micro_account_mode": false,
+    "max_risk_per_trade_percent": 0,
+    "min_balance_required": 50.0,
+    "dynamic_trade_limit": true,
+    "base_daily_trades": 15,
+    "bonus_trades_per_dollar": 1,
+    "max_daily_trades_cap": 30
+  },
+  "options": {
+    "symbols": [
+      "XAUUSDm",
+      "EURUSDm",
+      "GBPUSDm",
+      "USDJPYm",
+      "AUDUSDm",
+      "BTCUSDm"
+    ],
+    "timeframes": [
+      "M1",
+      "M5",
+      "M15",
+      "M30",
+      "H1",
+      "H4",
+      "D1"
+    ],
+    "trade_modes": [
+      "CONSERVATIVE",
+      "MODERATE",
+      "AGGRESSIVE",
+      "SCALPING",
+      "RAPID_FIRE",
+      "GRID"
+    ],
+    "accounts": [
+      "DEMO",
+      "EXNESS"
+    ],
+    "auto_close_modes": [
+      "PER_TRADE",
+      "TOTAL",
+      "BOTH"
+    ]
+  }
+}
